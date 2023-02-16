@@ -41,7 +41,7 @@ jobs:
         uses: docker/login-action@v2.1.0
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: ${{ github.repository_owner.toLowerCase() }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
@@ -49,7 +49,7 @@ jobs:
         uses: docker/build-push-action@v3.2.0
         with:
           file: Dockerfile
-          tags: ghcr.io/${{ github.repository }}:${{ steps.gitversion.outputs.semVer }}
+          tags: ghcr.io/${{ github.repository.toLowerCase() }}:${{ steps.gitversion.outputs.semVer }}
           cache-from: type=gha, scope=${{ github.workflow }}
           cache-to: type=gha, scope=${{ github.workflow }}
 
@@ -60,7 +60,7 @@ jobs:
         with:
           file: Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}:${{ steps.gitversion.outputs.semVer }}
+          tags: ghcr.io/${{ github.repository.toLowerCase() }}:${{ steps.gitversion.outputs.semVer }}
           cache-from: type=gha, scope=${{ github.workflow }}
           cache-to: type=gha, scope=${{ github.workflow }}
 
