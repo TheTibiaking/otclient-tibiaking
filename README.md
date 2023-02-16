@@ -2,6 +2,11 @@
 <a href="https://www.tibiaking.com"><img src="https://user-images.githubusercontent.com/74227915/219124653-caccb04f-e858-4e81-b8be-c94ffbd3f276.png"/>
 </center></a>
 
+### Build Status
+
+[![Build - Windows](https://github.com/TheTibiaking/otclient-tibiaking/actions/workflows/build-windows.yml/badge.svg?branch=master)](https://github.com/TheTibiaking/otclient-tibiaking/actions/workflows/build-windows.yml)
+[![Build - Ubuntu](https://github.com/TheTibiaking/otclient-tibiaking/actions/workflows/ubuntu-build.yml/badge.svg)](https://github.com/TheTibiaking/otclient-tibiaking/actions/workflows/ubuntu-build.yml)
+[![Build - Docker](https://github.com/TheTibiaking/otclient-tibiaking/actions/workflows/docker-build.yml/badge.svg)](https://github.com/TheTibiaking/otclient-tibiaking/actions/workflows/docker-build.yml)
 
 ## Esse cliente foi desenvolvido pelo [Edubart](https://github.com/edubart/otclient) e editado pelo [Mehah](https://github.com/mehah/otclient) e pela comunidade.
 ### Esta fork se baseia nesta [rev](https://github.com/mehah/otclient/tree/e81900547cd224b6d2c98550f360f78b49575285)
