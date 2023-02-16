@@ -70,6 +70,6 @@ jobs:
       - name: Create and Upload Artifact
         uses: actions/upload-artifact@main
         with:
-          name: otclient-${{ matrix.buildtype }}-${{ github.sha }}
+          name: otclient-tibiaking-${{ matrix.buildtype }}-${{ github.sha }}
           path: |
             ${{ github.workspace }}/otclient-tibiaking
