@@ -46,21 +46,7 @@ E este repositório ira ajudar no desenvolvimento de sistemas, remoção de bugs
 - Tibia Theme 1.2
 
 ## Buildar e rodar com docker
-#### Para dar build na imagem:
-docker build -t mehah/otclient .
-#### Para rodar a imagem buildada:
-
-#### Disabilitando o server.
-xhost +
-#### Rode o container com esses parametros.
-docker run -it --rm \
-  --env DISPLAY \
-  --volume /tmp/.X11-unix:/tmp/.X11-unix \
-  --device /dev/dri \
-  --device /dev/snd mehah/otclient /bin/bash
-
-#### Ative o server.
-xhost -
+Em breve...
 
 ## Download
 [Windows Builds](https://github.com/TheTibiaking/otclient-tibiaking/releases)
