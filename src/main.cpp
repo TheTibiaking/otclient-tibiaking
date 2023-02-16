@@ -40,7 +40,7 @@ int main(int argc, const char* argv[])
     // setup application name and version
     g_app.setName("OTClient - Redemption");
     g_app.setCompactName("otclient");
-    g_app.setOrganizationName("otbr");
+    g_app.setOrganizationName("tibiaking");
 
 #if ENABLE_ENCRYPTION == 1 && ENABLE_ENCRYPTION_BUILDER == 1
     if (std::find(args.begin(), args.end(), "--encrypt") != args.end()) {
