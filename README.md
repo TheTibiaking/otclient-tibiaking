@@ -66,7 +66,7 @@ xhost -
 [Windows Builds](https://github.com/TheTibiaking/otclient-tibiaking/releases)
 
 ## WIKI
-... Construction
+[OTC-TK](https://github.com/TheTibiaking/otclient-tibiaking/wiki)
 
 ### CREDITS:
 Edubart, Mehah, TibiaKing Team
