@@ -64,6 +64,7 @@ Em breve...
 
 ### Créditos
 
-Este projeto foi possível graças aos esforços de Edubart, Mehah e à equipe do TibiaKing. Agradecemos a todos os desenvolvedores e colaboradores envolvidos na criação do OTClient TibiaKing e por contribuírem para uma comunidade de servidores privados de Tibia ativa e vibrante.
+Este projeto foi possível graças aos esforços de Edubart, Mehah e à equipe do TibiaKing. 
+Agradecemos a todos os desenvolvedores e colaboradores envolvidos na criação do OTClient TibiaKing e por contribuírem para uma comunidade de servidores privados de Tibia ativa e vibrante.
 
 ---
