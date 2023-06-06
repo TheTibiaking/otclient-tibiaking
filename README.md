@@ -40,9 +40,7 @@ Este repositório é uma ferramenta valiosa para o desenvolvimento de sistemas, 
 - Configuração do cliente em Config config.h
 - Suporte para versões do Tibia 12.85 a 12.92 (protobuf)
 - Sistema de mercado funcional com Canary
-- Suporte ao Tibia 12
-
-.85
+- Suporte ao Tibia 12.85
 - Suporte ao Discord RPC
 - Fade nos pisos
 - Action Bar
